@@ -1,38 +1,49 @@
-.App {
+* {
+  margin: 0;
+}
+.app {
   text-align: center;
+  background-image: url("https://products.ls.graphics/mesh-gradients/images/01.-Royal-Heath.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: repeat;
+  height: 160vh;
+  padding-top: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 120px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(190, 188, 188, 0) 100%
+  );
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.devider {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(165, 215, 228);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title {
+  font-weight: 100;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading {
+  font-size: 2.3rem;
+  font-weight: 500;
+  background-color: rgb(165, 215, 228);
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(190, 188, 188, 0) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }

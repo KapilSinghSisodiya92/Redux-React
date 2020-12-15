@@ -1,0 +1,3 @@
+[1201/215145.362:ERROR:crashpad_client_win.cc(397)] OpenProcess: Access is denied. (0x5)
+[1215/210801.476:ERROR:crashpad_client_win.cc(396)] OpenProcess: Access is denied. (0x5)
+[1216/011204.533:ERROR:crashpad_client_win.cc(396)] OpenProcess: Access is denied. (0x5)
